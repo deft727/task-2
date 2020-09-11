@@ -1,0 +1,7 @@
+<p>Уважаемый {{ user.username }},</p>
+<p>
+    Чтобы войти
+    <a href="{{ url_for('log_in', token=token, _external=True) }}">
+        кликните по ссылке
+    </a>.
+</p>

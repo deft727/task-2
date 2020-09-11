@@ -1,0 +1,16 @@
+
+        {% extends "base.html" %}
+
+        {% block content %}
+
+<div class="container m-5">
+
+        <p class="text-primary">заходов через email:</p>
+        <p class="text-danger"> {{visit}}  :</p> <form action="" method="POST">
+       <button type="submit" class="btn btn-primary" name='submit' value="submit">Сбросить</button>
+    </form>  
+
+
+</div>
+
+        {% endblock %}
